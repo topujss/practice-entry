@@ -1,8 +1,9 @@
 import { legacy_createStore as createStore } from 'redux';
-import counterReducer from './counterReducer';
+import colorReducer from './colorReducer';
+// import counterReducer from './counterReducer';
 
 // create only store
-const store = createStore(counterReducer);
+const store = createStore(colorReducer);
 
 // export me
 export default store;

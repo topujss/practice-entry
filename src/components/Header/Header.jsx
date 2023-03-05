@@ -5,7 +5,7 @@ const LogoUrl = `https://blog.wildix.com/wp-content/uploads/2020/06/react-logo.j
 function Header() {
   return (
     <>
-      <section className="mb-5 shadow-sm">
+      <section className="shadow-sm bg-teal-400  text-white">
         <header className="max-w-screen-xl mx-auto flex justify-between items-center py-5">
           <Link to="/" className="logo">
             <img className="w-full h-16 object-cover" src={LogoUrl} alt="" />

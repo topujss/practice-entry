@@ -9,6 +9,7 @@ const Counter = () => {
 
   return (
     <>
+      <h1 className="text-3xl text-sky-500">Counter</h1>
       <h1 className="text-green-600 text-[7rem] font-bold"> {counter} </h1>
       <hr />
       <div className="btn-group mt-4">
