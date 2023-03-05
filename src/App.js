@@ -1,12 +1,12 @@
-import { NavLink } from 'react-router-dom';
-import { Counter } from './components/counter/Counter';
+import { RouterProvider } from 'react-router-dom';
+// import 'react-toastify/dist/ReactToastify.css';
+import myRoutes from './router/router';
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
-      <Counter />
-      <h1>heeo</h1>
+      {/* Set my router function to RouterProvider  */}
+      <RouterProvider router={myRoutes} />
     </>
   );
 }

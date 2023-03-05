@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.active {
+  @apply text-emerald-600 font-semibold;
+}
