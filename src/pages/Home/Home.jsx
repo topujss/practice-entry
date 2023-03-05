@@ -1,11 +1,14 @@
 import React from 'react';
+import Counter from '../../components/counter/Counter';
 import Header from '../../components/Header/Header';
 
 export const Home = () => {
   return (
     <>
       <Header />
-      <h1 className="text-4xl text-sky-600 text-center">Home</h1>
+      <section className="max-w-screen-lg mx-auto">
+        <Counter />
+      </section>
     </>
   );
 };
