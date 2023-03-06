@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 const Counter = () => {
   // whatever in the redux store will be accessible by useSelector()
-  const counter = useSelector((state) => state);
+  const {counter} = useSelector((state) => state);
 
   // useDispatch() - allows get final value and can be used
   const dispatch = useDispatch();
