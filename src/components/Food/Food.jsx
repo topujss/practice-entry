@@ -1,18 +1,19 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
+import { setBg } from '../../redux/food/foodAction';
 
-const Food = () => {
+const Food = ({ title }) => {
   const dispatch = useDispatch();
   return (
-    <>
-      <h1 className="text-2xl font-bold uppercase border-b-4 pb-2 mb-2 border-lime-600">Food</h1>
+    <section className="z-10">
+      <h1 className="text-2xl font-bold uppercase border-b-4 pb-2 mb-2 border-lime-600 text-white">{title}</h1>
 
       <select
         className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5"
-        onChange={(e) => dispatch({ type: 'CHANGE', payload: e.target.value })}
+        onChange={(e) => dispatch(setBg(e.target.value))}
       >
         <option value="">-Select-</option>
-        <option value="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg">
+        <option value="https://blog.mystart.com/wp-content/uploads/IN_Night_Sky_5afaf17fa16770ec226a7983.jpeg">
           Sky
         </option>
         <option value="https://www.eea.europa.eu/themes/biodiversity/state-of-nature-in-the-eu/state-of-nature-2020-subtopic/image_print">
@@ -26,7 +27,7 @@ const Food = () => {
           Reflection
         </option>
       </select>
-    </>
+    </section>
   );
 };
 

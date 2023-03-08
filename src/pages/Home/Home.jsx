@@ -15,11 +15,11 @@ export const Home = () => {
           backgroundImage: `url(${food})`,
         }}
       >
-        <Header />
+        {/* <Header /> */}
         <section className="max-w-screen-lg mx-auto ">
-          <Counter />
-          <Color />
-          <Food />
+          <Counter title="counter varities" />
+          <Color title="color varities" />
+          <Food title="scene selection" />
         </section>
       </main>
     </>

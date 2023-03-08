@@ -1,7 +1,6 @@
+// import { colorType } from '../actionTypes';
 import { colorType } from './actionTypes';
-
-// create init state value
-const initValue = 'bg-teal-500';
+import { initValue } from './initState';
 
 // Distructure all types from color type
 const {
