@@ -9,7 +9,7 @@ const Food = ({ title }) => {
       <h1 className="text-2xl font-bold uppercase border-b-4 pb-2 mb-2 border-lime-600 text-white">{title}</h1>
 
       <select
-        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5"
+        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 cursor-pointer"
         onChange={(e) => dispatch(setBg(e.target.value))}
       >
         <option value="">-Select-</option>

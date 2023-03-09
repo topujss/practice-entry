@@ -25,7 +25,8 @@ const {
  * Gray
  * @info set the color to gray
  */
-export const grayColor = () => {
+export const grayColor = () => async (dispatch, getState) => {
+  console.log(getState());
   return { type: GRAY };
 };
 
