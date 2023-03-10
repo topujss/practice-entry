@@ -1,0 +1,5 @@
+export const todoTypes = {
+  TODO_REQ: 'TODO_REQ',
+  TODO_REQ_SUCCESS: 'TODO_REQ_SUCCESS',
+  TODO_REQ_FAILED: 'TODO_REQ_FAILED',
+};

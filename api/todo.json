@@ -1,0 +1,19 @@
+{
+  "allTodo": [
+    {
+      "id": 1,
+      "title": "Mern stack",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "title": "Laravel stack",
+      "isDone": true
+    },
+    {
+      "id": 3,
+      "title": "Java stack",
+      "isDone": false
+    }
+  ]
+}
