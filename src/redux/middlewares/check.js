@@ -9,6 +9,5 @@
 export const checkRedux = (store) => (next) => (action) => {
   // const { counter } = store.getState();
   // counter >= 5 ? console.log('Not anymore') : next(action);
-  console.log('testing');
   next(action);
 };

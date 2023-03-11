@@ -2,4 +2,10 @@ export const todoTypes = {
   TODO_REQ: 'TODO_REQ',
   TODO_REQ_SUCCESS: 'TODO_REQ_SUCCESS',
   TODO_REQ_FAILED: 'TODO_REQ_FAILED',
+  // when added
+  TODO_ADD: 'TODO_ADD',
+  TODO_ADD_SUCCESS: 'TODO_ADD_SUCCESS',
+  TODO_ADD_FAILED: 'TODO_ADD_FAILED',
+  // when data delete
+  TODO_DELETE: 'TODO_DELETE',
 };
