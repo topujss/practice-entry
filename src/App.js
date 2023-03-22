@@ -2,7 +2,7 @@ import { RouterProvider } from 'react-router-dom';
 // import 'react-toastify/dist/ReactToastify.css';
 import myRoutes from './router/router';
 
-function App() {
+export const App = () => {
   return (
     <>
       {/* Set my router function to RouterProvider  */}
@@ -10,5 +10,3 @@ function App() {
     </>
   );
 }
-
-export default App;
